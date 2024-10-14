@@ -10,10 +10,43 @@
 .nav-class{
   background-color: #0c15c4;
 }
+.nav-class a{
+  color: white;
+}
 
 .title-class{
-  color: black;
+  color: pink;
 }
+
+.section-title-class{
+  color: #5c5c5c;
+}
+
+.text-class{
+  color: #FF69B4;
+}
+
+.image-class{
+  border: #91ff69;
+}
+
+.form-class{
+  background-color: #FFA07A;
+  padding:  20px;
+  border: none;
+  border-radius: 10px;
+}
+
+.button-class{
+  background-color: #FFC107;
+  color: #FFFFFF;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+
 
 
 
