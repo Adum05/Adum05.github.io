@@ -1,53 +1,197 @@
-.body-class{
+.body-class {
   background-color: skyblue;
 }
 
-.header-class{
+.header-class {
   background-color: orange;
   color: magenta;
+  padding: 20px;
+  text-align: center;
 }
 
-.nav-class{
+.nav-class {
   background-color: #0c15c4;
+  padding: 10px;
+  text-align: center;
 }
-.nav-class a{
+
+.nav-class a {
   color: white;
+  text-decoration: none;
+  margin: 10px;
 }
 
-.title-class{
+.title-class {
   color: #f50fbb;
+  font-size: 36px;
+  margin-bottom: 10px;
 }
 
-.section-title-class{
+.section-title-class {
   color: #5c5c5c;
+  font-size: 24px;
+  margin-bottom: 10px;
 }
 
-.text-class{
+.text-class {
   color: #2F4F7F;
+  font-size: 18px;
+  margin-bottom: 20px;
 }
 
-.image-class{
+.image-class {
   border: 30px solid #91ff69;
+  width: 100%;
+  height: auto;
+  margin: 20px auto;
+  display: block;
 }
 
-.form-class{
+.form-class {
   background-color: #FFA07A;
-  padding:  20px;
+  padding: 20px;
   border: none;
   border-radius: 10px;
+  width: 80%;
+  margin: 20px auto;
 }
 
-.button-class{
+.button-class {
   background-color: #FFC107;
   color: #FFFFFF;
   padding: 10px 20px;
   border: none;
   border-radius: 10px;
   cursor: pointer;
+  width: 100%;
+  margin: 10px auto;
+  display: block;
 }
 
+/* Responsive Design */
 
+/* Mobile Devices (max-width: 768px) */
 
+@media only screen and (max-width: 768px) {
+  .header-class {
+    padding: 10px;
+  }
 
+  .nav-class {
+    padding: 5px;
+  }
 
+  .nav-class a {
+    margin: 5px;
+  }
 
+  .title-class {
+    font-size: 24px;
+  }
+
+  .section-title-class {
+    font-size: 18px;
+  }
+
+  .text-class {
+    font-size: 16px;
+  }
+
+  .image-class {
+    border: 10px solid #91ff69;
+    margin: 10px auto;
+  }
+
+  .form-class {
+    width: 90%;
+    padding: 10px;
+  }
+
+  .button-class {
+    padding: 5px 10px;
+  }
+}
+
+/* Tablets (max-width: 1024px) */
+
+@media only screen and (max-width: 1024px) {
+  .header-class {
+    padding: 15px;
+  }
+
+  .nav-class {
+    padding: 10px;
+  }
+
+  .nav-class a {
+    margin: 10px;
+  }
+
+  .title-class {
+    font-size: 30px;
+  }
+
+  .section-title-class {
+    font-size: 20px;
+  }
+
+  .text-class {
+    font-size: 18px;
+  }
+
+  .image-class {
+    border: 20px solid #91ff69;
+    margin: 15px auto;
+  }
+
+  .form-class {
+    width: 85%;
+    padding: 15px;
+  }
+
+  .button-class {
+    padding: 10px 15px;
+  }
+}
+
+/* Desktop Devices (min-width: 1280px) */
+
+@media only screen and (min-width: 1280px) {
+  .header-class {
+    padding: 25px;
+  }
+
+  .nav-class {
+    padding: 15px;
+  }
+
+  .nav-class a {
+    margin: 15px;
+  }
+
+  .title-class {
+    font-size: 36px;
+  }
+
+  .section-title-class {
+    font-size: 24px;
+  }
+
+  .text-class {
+    font-size: 20px;
+  }
+
+  .image-class {
+    border: 30px solid #91ff69;
+    margin: 20px auto;
+  }
+
+  .form-class {
+    width: 80%;
+    padding: 20px;
+  }
+
+  .button-class {
+    padding: 15px 25px;
+  }
+}
