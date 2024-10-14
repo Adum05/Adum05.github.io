@@ -15,7 +15,7 @@
 }
 
 .title-class{
-  color: pink;
+  color: #f50fbb;
 }
 
 .section-title-class{
@@ -23,11 +23,12 @@
 }
 
 .text-class{
-  color: #FF69B4;
+  color: #2F4F7F;
 }
 
 .image-class{
   border: #91ff69;
+  padding: 10px
 }
 
 .form-class{
