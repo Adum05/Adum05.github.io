@@ -4,12 +4,16 @@
 
 .header-class{
   background-color: orange
+  color: violet
+}
+
+.nav-class{
+  background-color: darkblue
 }
 
 .title-class{
-  color: navyblue
+  color: black
 }
-
 
 
 
