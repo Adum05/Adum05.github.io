@@ -1,13 +1,13 @@
-.body-class: hover{
-  background-color: hsl(245°, 82%, 56%) 
+.body-class{
+  background-color: #4233eb
 }
 
-.header-class: hover{
-  background-color: hsl(33°, 95%, 57%)
+.header-class{
+  background-color: #fa9c29
 }
 
-h1.title-class: hover{
-  color: hsl(250°, 92%, 44%)
+h1.title-class{
+  color: #2b09d7
 }
 
 
