@@ -1,197 +1,128 @@
-.body-class {
-  background-color: skyblue;
+/* Global Reset */
+* {
+    margin: 0;
+    padding: 0;
 }
 
-.header-class {
-  background-color: orange;
-  color: magenta;
-  padding: 20px;
-  text-align: center;
+/* HomePage */
+
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.nav-class {
-  background-color: #0c15c4;
-  padding: 10px;
-  text-align: center;
+/* Header */
+header {
+    width: 100%;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f8f8f8;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-.nav-class a {
-  color: white;
-  text-decoration: none;
-  margin: 10px;
+.logo {
+    display: flex;
+    align-items: center;
+    font-size: 1.5em;
 }
 
-.title-class {
-  color: #f50fbb;
-  font-size: 36px;
-  margin-bottom: 10px;
+.logo img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
 }
 
-.section-title-class {
-  color: #5c5c5c;
-  font-size: 24px;
-  margin-bottom: 10px;
+.navbar a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333;
 }
 
-.text-class {
-  color: #2F4F7F;
-  font-size: 18px;
-  margin-bottom: 20px;
-}
-
-.image-class {
-  border: 30px solid #91ff69;
-  width: 100%;
-  height: auto;
-  margin: 20px auto;
-  display: block;
-}
-
-.form-class {
-  background-color: #FFA07A;
-  padding: 20px;
-  border: none;
-  border-radius: 10px;
-  width: 80%;
-  margin: 20px auto;
-}
-
-.button-class {
-  background-color: #FFC107;
-  color: #FFFFFF;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 10px;
-  cursor: pointer;
-  width: 100%;
-  margin: 10px auto;
-  display: block;
-}
-
-/* Responsive Design */
-
-/* Mobile Devices (max-width: 768px) */
-
-@media only screen and (max-width: 768px) {
-  .header-class {
-    padding: 10px;
-  }
-
-  .nav-class {
-    padding: 5px;
-  }
-
-  .nav-class a {
-    margin: 5px;
-  }
-
-  .title-class {
-    font-size: 24px;
-  }
-
-  .section-title-class {
-    font-size: 18px;
-  }
-
-  .text-class {
-    font-size: 16px;
-  }
-
-  .image-class {
-    border: 10px solid #91ff69;
-    margin: 10px auto;
-  }
-
-  .form-class {
-    width: 90%;
-    padding: 10px;
-  }
-
-  .button-class {
-    padding: 5px 10px;
-  }
-}
-
-/* Tablets (max-width: 1024px) */
-
-@media only screen and (max-width: 1024px) {
-  .header-class {
-    padding: 15px;
-  }
-
-  .nav-class {
-    padding: 10px;
-  }
-
-  .nav-class a {
-    margin: 10px;
-  }
-
-  .title-class {
-    font-size: 30px;
-  }
-
-  .section-title-class {
-    font-size: 20px;
-  }
-
-  .text-class {
-    font-size: 18px;
-  }
-
-  .image-class {
-    border: 20px solid #91ff69;
-    margin: 15px auto;
-  }
-
-  .form-class {
-    width: 85%;
-    padding: 15px;
-  }
-
-  .button-class {
-    padding: 10px 15px;
-  }
-}
-
-/* Desktop Devices (min-width: 1280px) */
-
-@media only screen and (min-width: 1280px) {
-  .header-class {
-    padding: 25px;
-  }
-
-  .nav-class {
-    padding: 15px;
-  }
-
-  .nav-class a {
-    margin: 15px;
-  }
-
-  .title-class {
-    font-size: 36px;
-  }
-
-  .section-title-class {
-    font-size: 24px;
-  }
-
-  .text-class {
-    font-size: 20px;
-  }
-
-  .image-class {
-    border: 30px solid #91ff69;
-    margin: 20px auto;
-  }
-
-  .form-class {
-    width: 80%;
+/* Main Content */
+.main-content {
+    width: 100%;
+    max-width: 800px;
     padding: 20px;
-  }
-
-  .button-class {
-    padding: 15px 25px;
-  }
+    text-align: center;
 }
+
+/* Info Boxes */
+.info-boxes {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    margin: 20px 0;
+    flex-wrap: wrap;
+}
+
+.info-box {
+    width: 30%;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fafafa;
+    text-align: center;
+}
+
+/* Call-to-Action Button */
+.button-container {
+    margin: 20px 0;
+}
+
+.find-charities-button {
+    padding: 10px 20px;
+    background-color: #313030;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 7px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+    cursor: pointer;
+}
+
+.find-charities-button:hover {
+    background-color: #080808;
+}
+
+/* Footer */
+footer {
+    width: 100%;
+    padding: 20px;
+    background-color: #8f8f8f;
+    text-align: center;
+}
+
+.footer-content p {
+    margin-bottom: 5px;
+}
+
+/* Social Icons */
+.social-icons {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.social-item {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.social-item img {
+    width: 30px;
+    height: 30px;
+}
+
+
+
+/* Charities Lists Page*/
